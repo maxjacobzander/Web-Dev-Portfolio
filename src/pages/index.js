@@ -4,9 +4,12 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import PDF from '../assets/documents/Max_Zander_SE_Resume_Feb_2021.pdf';
+
+import pic1 from '../assets/images/project_pics/Liquor_Cabinet.jpg';
+import pic2 from '../assets/images/project_pics/Ear_Trainer.jpg';
+import pic3 from '../assets/images/project_pics/Bucket.jpg';
+import pic4 from '../assets/images/project_pics/Bravo_Score_Library.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -35,12 +38,12 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-          Hi! <br /> I’m Max and I’m a Software Developer from New York.
+            Hi! <br /> I’m Max and I’m a Software Developer from New York.
             {/* <br />
             eget augue amet aliquet nisl cep donec */}
           </h2>
           <p>
-          After 6+ years working internationally as a professional opera singer, music teacher, and award-winning composer and arranger of music, I found myself drawn to software development
+            After 6+ years working internationally as a professional opera singer, music teacher, and award-winning composer and arranger of music, I found myself drawn to software development
             <br />
           </p>
         </header>
@@ -64,20 +67,21 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="two" className="wrapper alt style2">
+    <section id="two" className="wrapper alt style2 special">
+    <br />
+    <header className="major">
+      <h2>Some Previous Projects...</h2>
+    </header>
       <section className="spotlight">
         <div className="image">
           <img src={pic1} alt="" />
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            Liquor Cabinet
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            React/Redux Front-End, Rails API Back-End
           </p>
         </div>
       </section>
@@ -87,13 +91,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+            Ear Trainer
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Vanilla JavaScript Front-End, Rails API Back-End
           </p>
         </div>
       </section>
@@ -103,13 +104,23 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+            Bucket
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            A 100% Rails Application
+          </p>
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={pic4} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            Bravo Personal Score Library Catalogue
+          </h2>
+          <p>
+            A Sinatra Application
           </p>
         </div>
       </section>
@@ -118,17 +129,21 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>My Resume</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Feel free to check out my resume or click here to download it!
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
+          <embed
+            src={PDF + "#toolbar=0"}
+            type="application/pdf"
+            height={1032}
+            width={800}
+          // height={645}
+          // width={500}
+          />
+          {/* <li className="icon fa-paper-plane">
             <h3>Arcu accumsan</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
@@ -169,7 +184,7 @@ const IndexPage = () => (
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
@@ -177,7 +192,7 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Want to Learn More About My Performing Career?</h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
             eleifend fringilla.
