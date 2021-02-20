@@ -11,6 +11,13 @@ import pic2 from '../assets/images/project_pics/Ear_Trainer.jpg';
 import pic3 from '../assets/images/project_pics/Bucket.jpg';
 import pic4 from '../assets/images/project_pics/Bravo_Score_Library.jpg';
 import config from '../../config';
+
+const singerWebsite = "https://www.maxjacobzander.com";
+const reduxDemo = "https://youtu.be/oolEZgBoPMM";
+const jsDemo = "https://youtu.be/BgoJaH-Y_hg";
+const railsDemo = "https://youtu.be/ga3SLheArSU";
+const sinatraDemo = "https://youtu.be/C9yT2VxRh98";
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -39,8 +46,6 @@ const IndexPage = () => (
         <header className="major">
           <h2>
             Hi! <br /> I’m Max and I’m a Software Developer from New York.
-            {/* <br />
-            eget augue amet aliquet nisl cep donec */}
           </h2>
           <p>
             After 6+ years working internationally as a professional opera singer, music teacher, and award-winning composer and arranger of music, I found myself drawn to software development
@@ -68,7 +73,7 @@ const IndexPage = () => (
     </section>
 
     <section id="two" className="wrapper alt style2 special">
-    <br />
+    <br /><br />
     <header className="major">
       <h2>Some Previous Projects...</h2>
     </header>
@@ -131,7 +136,7 @@ const IndexPage = () => (
         <header className="major">
           <h2>My Resume</h2>
           <p>
-            Feel free to check out my resume or click here to download it!
+            Feel free to check out my resume or <a href="https://learn.co/maxzander/resume">click here</a> to download it!
           </p>
         </header>
         <ul className="features">
@@ -200,8 +205,8 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
-              Activate
+          <a href="https://maxjacobzander.com" className="button fit primary">
+              Click Here
             </a>
           </li>
           <li>
