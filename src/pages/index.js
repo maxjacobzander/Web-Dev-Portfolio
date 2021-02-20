@@ -35,32 +35,29 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+          Hi! <br /> I’m Max and I’m a Software Developer from New York.
+            {/* <br />
+            eget augue amet aliquet nisl cep donec */}
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+          After 6+ years working internationally as a professional opera singer, music teacher, and award-winning composer and arranger of music, I found myself drawn to software development
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
           </p>
         </header>
         <ul className="icons major">
           <li>
             <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
+              <span className="label">Ruby Gem</span>
             </span>
           </li>
           <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
+            <span className="icon solid fa-music major style2">
+              <span className="label">Music Notes</span>
             </span>
           </li>
           <li>
             <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
+              <span className="label">Code Snippet</span>
             </span>
           </li>
         </ul>
