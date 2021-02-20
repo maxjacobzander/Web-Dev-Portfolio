@@ -12,11 +12,6 @@ import pic3 from '../assets/images/project_pics/Bucket.jpg';
 import pic4 from '../assets/images/project_pics/Bravo_Score_Library.jpg';
 import config from '../../config';
 
-const singerWebsite = "https://www.maxjacobzander.com";
-const reduxDemo = "https://youtu.be/oolEZgBoPMM";
-const jsDemo = "https://youtu.be/BgoJaH-Y_hg";
-const railsDemo = "https://youtu.be/ga3SLheArSU";
-const sinatraDemo = "https://youtu.be/C9yT2VxRh98";
 
 const IndexPage = () => (
   <Layout>
@@ -79,7 +74,9 @@ const IndexPage = () => (
     </header>
       <section className="spotlight">
         <div className="image">
+          <a href="https://youtu.be/oolEZgBoPMM">
           <img src={pic1} alt="" />
+          </a>
         </div>
         <div className="content">
           <h2>
@@ -92,7 +89,9 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
+          <a href="https://youtu.be/BgoJaH-Y_hg">
           <img src={pic2} alt="" />
+          </a>
         </div>
         <div className="content">
           <h2>
@@ -105,7 +104,9 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
+          <a href="https://youtu.be/ga3SLheArSU">
           <img src={pic3} alt="" />
+          </a>
         </div>
         <div className="content">
           <h2>
@@ -118,7 +119,9 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
+          <a href="https://youtu.be/C9yT2VxRh98">
           <img src={pic4} alt="" />
+          </a>
         </div>
         <div className="content">
           <h2>
@@ -136,7 +139,7 @@ const IndexPage = () => (
         <header className="major">
           <h2>My Resume</h2>
           <p>
-            Feel free to check out my resume or <a href="https://learn.co/maxzander/resume">click here</a> to download it!
+            Feel free to check out my resume or <a href={PDF}>click here</a> to download it!
           </p>
         </header>
         <ul className="features">
