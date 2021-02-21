@@ -166,8 +166,9 @@ const IndexPage = () => (
           <embed
             src={PDF + "#toolbar=0"}
             type="application/pdf"
-            height={1033}
-            width="80%"
+            style={{width: "100%", height: "100%", display: "block"}}
+            // height={1033}
+            // width="80%"
           // height={645}
           // width={500}
           />
