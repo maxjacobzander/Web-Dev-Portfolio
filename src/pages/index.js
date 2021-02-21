@@ -10,6 +10,7 @@ import pic1 from '../assets/images/project_pics/Liquor_Cabinet.jpg';
 import pic2 from '../assets/images/project_pics/Ear_Trainer.jpg';
 import pic3 from '../assets/images/project_pics/Bucket.jpg';
 import pic4 from '../assets/images/project_pics/Bravo_Score_Library.jpg';
+import pic5 from '../assets/images/project_pics/Cocktail_Buddy.jpg';
 import config from '../../config';
 
 
@@ -78,7 +79,7 @@ const IndexPage = () => (
     </header>
       <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/oolEZgBoPMM">
+          <a href="https://youtu.be/oolEZgBoPMM" target="_blank" rel="noreferrer noopener">
           <img src={pic1} alt="" />
           </a>
         </div>
@@ -133,6 +134,21 @@ const IndexPage = () => (
           </h2>
           <p>
             A Sinatra Application
+          </p>
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <a href="https://youtu.be/Mid918ODF0U">
+          <img src={pic5} alt="" />
+          </a>
+        </div>
+        <div className="content">
+          <h2>
+            Cocktail Buddy
+          </h2>
+          <p>
+            A simple Command-Line Interface
           </p>
         </div>
       </section>

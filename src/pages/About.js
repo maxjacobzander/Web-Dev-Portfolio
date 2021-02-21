@@ -34,9 +34,6 @@ const IndexPage = () => (
           Master’s, I dove straight into the world of professional music-making.
           </p>
 
-          <hr />
-
-          <h4>A New Chapter</h4>
           <p>
           When I look back, I guess I was always drawn to web and software development. 
           In the fifth grade, I was one of my elementary school’s “Webmasters”, helping 
@@ -54,6 +51,22 @@ const IndexPage = () => (
           proud graduate of that program, I continue to learn every day to expand my toolbelt and build 
           the best programs possible!
           </p>
+
+          <hr />
+
+          <h3>More About Me</h3>
+          <ul>
+            <li>
+              Favorite Color: Blue
+            </li>
+            <li>
+              Coding Languages: Ruby, JavaScript, HTML, CSS
+            </li>
+            <li>
+              Libraries & Frameworks: React, Redux, Rails, SQL, Sinatra 
+            </li>
+          </ul>
+
         </div>
       </section>
     </article>
