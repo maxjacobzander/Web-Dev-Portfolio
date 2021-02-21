@@ -94,7 +94,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/BgoJaH-Y_hg">
+          <a href="https://youtu.be/BgoJaH-Y_hg" target="_blank" rel="noreferrer noopener">
           <img src={pic2} alt="" />
           </a>
         </div>
@@ -109,7 +109,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/ga3SLheArSU">
+          <a href="https://youtu.be/ga3SLheArSU" target="_blank" rel="noreferrer noopener">
           <img src={pic3} alt="" />
           </a>
         </div>
@@ -124,7 +124,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/C9yT2VxRh98">
+          <a href="https://youtu.be/C9yT2VxRh98" target="_blank" rel="noreferrer noopener">
           <img src={pic4} alt="" />
           </a>
         </div>
@@ -139,7 +139,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/Mid918ODF0U">
+          <a href="https://youtu.be/Mid918ODF0U" target="_blank" rel="noreferrer noopener">
           <img src={pic5} alt="" />
           </a>
         </div>
@@ -159,7 +159,7 @@ const IndexPage = () => (
         <header className="major">
           <h2>My Resume</h2>
           <p>
-            Feel free to check out my resume or <a href={PDF}>click here</a> to download it!
+            Feel free to check out my resume or <a href={PDF} target="_blank" rel="noreferrer noopener">click here</a> to download it!
           </p>
         </header>
         <ul className="features">
