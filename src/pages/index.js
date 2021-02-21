@@ -44,6 +44,10 @@ const IndexPage = () => (
           </h2>
           <p>
             After 6+ years working internationally as a professional opera singer, music teacher, and award-winning composer and arranger of music, I found myself drawn to software development
+            <br /><br />
+            <a href="/About" className="button secondary">
+            About Me
+            </a>
             <br />
           </p>
         </header>
@@ -202,8 +206,8 @@ const IndexPage = () => (
         <header>
           <h2>Want to Learn More About My Performing Career?</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            {/* Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
+            eleifend fringilla. */}
           </p>
         </header>
         <ul className="actions stacked">
@@ -212,11 +216,11 @@ const IndexPage = () => (
               Click Here
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/#" className="button fit">
               Learn More
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
