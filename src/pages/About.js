@@ -7,59 +7,52 @@ const IndexPage = () => (
     <article id="main">
       <header>
         <h2>About Me</h2>
-        <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+        {/* <p>How Did I Get Here?</p> */}
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Lorem ipsum dolor</h3>
+          <h3>A little background...</h3>
           <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo,
-            tempus sed finibus eget, fringilla quis risus. Maecenas et lorem
-            quis sem varius sagittis et a est. Maecenas iaculis iaculis sem.
-            Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
+          As a young kid with glasses, people always assumed I knew my way 
+          around computers. I can’t even begin to tell you how many times people 
+          approached me in school or the library or wherever to ask for help with 
+          their computer problems. The bigger issue was that I would always figure 
+          out the solution, thus propelling the notion. Little did I know, I was 
+          discovering an affinity that would last a lifetime.
           </p>
 
           <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-            amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-            id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-            Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-            Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna,
-            sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere
-            leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse
-            id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-            consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-            felis elementum varius.
+          Now, I’ve been borderline obsessed with the idea of creating something 
+          from nothing for as long as I can remember. From inventing things to 
+          writing music, creation has always been my life. The desire to make music 
+          took me to the Jacobs School of Music at Indiana University, where I 
+          received both my Bachelor’s and Master’s degrees in Vocal Performance. 
+          I wrote music and did improv with IU’s longest-running improv troupe, 
+          creating original music and scenes every week; composed music for student 
+          films; and appeared onstage with IU Opera Theatre in sixteen different 
+          operas (singing in four different languages!). And after completing my 
+          Master’s, I dove straight into the world of professional music-making.
           </p>
 
           <hr />
 
-          <h4>Feugiat aliquam</h4>
+          <h4>A New Chapter</h4>
           <p>
-            Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec
-            varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia
-            tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in
-            tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean
-            erat diam, tempus aliquet erat.
+          When I look back, I guess I was always drawn to web and software development. 
+          In the fifth grade, I was one of my elementary school’s “Webmasters”, helping 
+          to build out an early version of the school’s website. When I entered the 
+          professional opera scene, I knew that I would need a website and built one using 
+          an online CMS (<a href="https://maxjacobzander.com">check it out here!</a>). When friends needed help with websites of their 
+          own, I was always happy to help. Eventually, I started teaching myself some HTML and 
+          CSS before deciding that I wanted to take things much more seriously.
           </p>
 
           <p>
-            Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus
-            rutrum cursus velit, eget condimentum nunc blandit vel. In at
-            pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget,
-            fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra
-            commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim
-            vel, posuere finibus justo. Vivamus facilisis maximus nibh quis
-            pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum.
-            Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.
+          After 6+ years working internationally as a professional opera singer, music teacher, 
+          and award-winning composer and arranger of music, I enrolled in Flatiron School’s full-time 
+          Full-Stack Software Engineering program, specializing in Ruby on Rails and React. Now, as a 
+          proud graduate of that program, I continue to learn every day to expand my toolbelt and build 
+          the best programs possible!
           </p>
         </div>
       </section>

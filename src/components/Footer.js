@@ -16,10 +16,11 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; Spectral</li>
-        <li>
+        {/* <li>&copy; Spectral</li> */}
+        <li>maxjacobzander@gmail.com</li>
+        {/* <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
-        </li>
+        </li> */}
       </ul>
     </footer>
   );
