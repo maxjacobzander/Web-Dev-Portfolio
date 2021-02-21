@@ -167,7 +167,7 @@ const IndexPage = () => (
             src={PDF + "#toolbar=0"}
             type="application/pdf"
             height={1032}
-            width={800}
+            width={100%}
           // height={645}
           // width={500}
           />
