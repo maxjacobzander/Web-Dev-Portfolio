@@ -29,7 +29,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/About">About</Link>
               </li>
               <li>
-                <a href={PDF}>Resume</a>
+                <a href={PDF} target="_blank" rel="noreferrer noopener">Resume</a>
               </li>
               <li>
                 <a href="https://maxjacobzander.github.io" target="_blank" rel="noreferrer noopener">Blog</a>
