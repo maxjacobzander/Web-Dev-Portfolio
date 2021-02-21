@@ -39,7 +39,7 @@ const IndexPage = () => (
           In the fifth grade, I was one of my elementary school’s “Webmasters”, helping 
           to build out an early version of the school’s website. When I entered the 
           professional opera scene, I knew that I would need a website and built one using 
-          an online CMS (<a href="https://maxjacobzander.com">check it out here!</a>). When friends needed help with websites of their 
+          an online CMS (<a href="https://maxjacobzander.com" target="_blank" rel="noreferrer noopener">check it out here!</a>). When friends needed help with websites of their 
           own, I was always happy to help. Eventually, I started teaching myself some HTML and 
           CSS before deciding that I wanted to take things much more seriously.
           </p>
@@ -57,13 +57,19 @@ const IndexPage = () => (
           <h3>More About Me</h3>
           <ul>
             <li>
-              Favorite Color: Blue
+              Fun Facts: I have a story for everything. Also, my wonderful girlfriend, Ashley and I are trying to visit every state in the US together! (We've currently been to 37 states + DC!)
             </li>
             <li>
-              Coding Languages: Ruby, JavaScript, HTML, CSS
+              Favorite Color: <span style={{color: "blue"}}>Blue</span>
             </li>
             <li>
-              Libraries & Frameworks: React, Redux, Rails, SQL, Sinatra 
+              Favorite TV Shows: The Office, Parks & Rec, The Great British Bake Off, The Big Flower Fight, Law & Order SVU, Criminal Minds
+            </li>
+            <li>
+              Coding Languages: <strong>Ruby, JavaScript, HTML, CSS</strong>
+            </li>
+            <li>
+              Libraries & Frameworks: <strong>React, Redux, Rails, SQL, Sinatra</strong>
             </li>
           </ul>
 
