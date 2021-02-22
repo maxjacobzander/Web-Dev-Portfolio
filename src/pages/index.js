@@ -162,13 +162,20 @@ const IndexPage = () => (
             Feel free to check out my resume or <a href={PDF} target="_blank" rel="noreferrer noopener">click here</a> to download it!
           </p>
         </header>
-        <ul className="features">
+        <ul className="features actions special">
           <embed
             src={PDF + "#toolbar=0"}
             type="application/pdf"
-            style={{width: "100%", height: "100%", display: "block"}}
-            // height={1033}
-            // width="80%"
+            // style={{width: "100%", height: "100%", display: "block"}}
+            height={1033}
+            display="block"
+            // height="100%"
+            width="100%"
+            // data={PDF + "#view=FitH"}
+            // trusted="yes"
+            // application="yes"
+            // frameborder="0"
+            // scrolling="no"
           // height={645}
           // width={500}
           />
