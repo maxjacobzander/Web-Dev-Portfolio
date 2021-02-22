@@ -66,10 +66,10 @@ const IndexPage = () => (
               Favorite TV Shows: The Office, Parks & Rec, The Great British Bake Off, The Big Flower Fight, Law & Order SVU, Criminal Minds
             </li>
             <li>
-              Coding Languages: <strong>Ruby, JavaScript, HTML, CSS</strong>
+              Coding Languages: <strong>Ruby, JavaScript, SQL, HTML, CSS</strong>
             </li>
             <li>
-              Libraries & Frameworks: <strong>React, Redux, Rails, SQL, Sinatra</strong>
+              Libraries & Frameworks: <strong>React, Redux, Rails, Sinatra</strong>
             </li>
           </ul>
 
