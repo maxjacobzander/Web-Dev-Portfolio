@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Max Zander, Web Developer', // <title>
-  manifestName: 'Spectral',
+  manifestName: 'The Online Portfolio of Max Zander',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
