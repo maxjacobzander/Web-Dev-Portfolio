@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import PDF from '../assets/documents/Max_Zander_SE_Resume_Feb_2021.pdf';
+import PDF from '../assets/documents/Max_Zander_SE_Resume_March_2021.pdf';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
@@ -32,7 +32,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <a href={PDF} target="_blank" rel="noreferrer noopener">Resume</a>
               </li>
               <li>
-                <a href="https://maxjacobzander.github.io" target="_blank" rel="noreferrer noopener">Blog</a>
+                <a href="https://dev.to/maxjacobzander" target="_blank" rel="noreferrer noopener">Blog</a>
               </li>
               {/* <li>
                 <Link to="/Contact">Contact</Link>
