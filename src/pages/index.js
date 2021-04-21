@@ -104,7 +104,7 @@ const IndexPage = () => (
           </h2>
           <p>
             Vanilla JavaScript Front-End, Rails API Back-End
-            <a href="https://ear-trainer.netlify.app/" target="_blank" rel="noreferrer noopener"> Try Me </a>
+            <br></br><a href="https://ear-trainer.netlify.app/" target="_blank" rel="noreferrer noopener"> (Try Me!) </a>
           </p>
         </div>
       </section>
