@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import PDF from '../assets/documents/Max_Zander_SE_Resume_March_2021.pdf';
+import PDF from '../assets/documents/Max_Zander_SE_Resume_April_2021.pdf';
 
 import pic1 from '../assets/images/project_pics/Liquor_Cabinet.jpg';
 import pic2 from '../assets/images/project_pics/Ear_Trainer.jpg';
@@ -104,6 +104,7 @@ const IndexPage = () => (
           </h2>
           <p>
             Vanilla JavaScript Front-End, Rails API Back-End
+            <a href="https://ear-trainer.netlify.app/" target="_blank" rel="noreferrer noopener"> Try Me </a>
           </p>
         </div>
       </section>

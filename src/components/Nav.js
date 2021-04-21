@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import PDF from '../assets/documents/Max_Zander_SE_Resume_March_2021.pdf';
+import PDF from '../assets/documents/Max_Zander_SE_Resume_April_2021.pdf';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
