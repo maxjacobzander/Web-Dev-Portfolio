@@ -4,13 +4,14 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import PDF from '../assets/documents/Max_Zander_SE_Resume_April_2021.pdf';
+import PDF from '../assets/documents/Max_Zander_SE_Resume_May_2021.pdf';
 
 import pic1 from '../assets/images/project_pics/Liquor_Cabinet.jpg';
 import pic2 from '../assets/images/project_pics/Ear_Trainer.jpg';
 import pic3 from '../assets/images/project_pics/Bucket.jpg';
 import pic4 from '../assets/images/project_pics/Bravo_Score_Library.jpg';
 import pic5 from '../assets/images/project_pics/Cocktail_Buddy.jpg';
+import pic6 from '../assets/images/project_pics/Adrians_Dream.jpg';
 import config from '../../config';
 
 
@@ -77,18 +78,19 @@ const IndexPage = () => (
     <header className="major">
       <h2>Some Previous Projects...</h2>
     </header>
-      <section className="spotlight">
+    <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/oolEZgBoPMM" target="_blank" rel="noreferrer noopener">
-          <img src={pic1} alt="" />
+          <a href="https://youtu.be/v16cW726es8" target="_blank" rel="noreferrer noopener">
+          <img src={pic6} alt="" />
           </a>
         </div>
         <div className="content">
           <h2>
-            Liquor Cabinet
+            Adrian's Dream
           </h2>
           <p>
-            React/Redux Front-End, Rails API Back-End
+            Small business website, built with React
+            <br></br><a href="https://adriansdream.netlify.app/" target="_blank" rel="noreferrer noopener"> (Visit Site) </a>
           </p>
         </div>
       </section>
@@ -105,6 +107,21 @@ const IndexPage = () => (
           <p>
             Vanilla JavaScript Front-End, Rails API Back-End
             <br></br><a href="https://ear-trainer.netlify.app/" target="_blank" rel="noreferrer noopener"> (Try Me!) </a>
+          </p>
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <a href="https://youtu.be/oolEZgBoPMM" target="_blank" rel="noreferrer noopener">
+          <img src={pic1} alt="" />
+          </a>
+        </div>
+        <div className="content">
+          <h2>
+            Liquor Cabinet
+          </h2>
+          <p>
+            React/Redux Front-End, Rails API Back-End
           </p>
         </div>
       </section>
