@@ -18,8 +18,7 @@ const IndexPage = () => (
 
           <p>
           Now, I’ve been borderline obsessed with the idea of creating something from nothing for as long as I can remember. From inventing things to writing music, creation has always been my life. The desire to make music took me to the Jacobs School of Music at Indiana University, where I 
-          received both my Bachelor’s and Master’s degrees in Vocal Performance. 
-          I wrote music and did improv with IU’s longest-running improv troupe, creating original music and scenes every week; composed music for student films; and appeared onstage with IU Opera Theatre in sixteen different operas (singing in four different languages!). And after completing my Master’s, I dove straight into the world of professional music-making.
+          received both my Bachelor’s and Master’s degrees in Vocal Performance. I wrote music and did improv with IU’s longest-running improv troupe, creating original music and scenes every week; composed music for student films; and appeared onstage with IU Opera Theatre in sixteen different operas (singing in four different languages!). And after completing my Master’s, I dove straight into the world of professional music-making.
           </p>
 
           <p>
