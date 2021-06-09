@@ -69,7 +69,7 @@ const IndexPage = () => (
               Coding Languages: <strong>Ruby, JavaScript, SQL, HTML, CSS</strong>
             </li>
             <li>
-              Libraries & Frameworks: <strong>React, Redux, Rails, Sinatra, Cypress.io, Styled Components</strong>
+              Libraries, Frameworks, & Tools: <strong>React, Redux, Rails, Sinatra, Cypress.io, Styled Components, PostgreSQL, SQLite, Devise, Git</strong>
             </li>
           </ul>
 
