@@ -34,7 +34,7 @@ const IndexPage = () => (
           <h3>More About Me</h3>
           <ul>
             <li>
-              Fun Facts: I have a story for everything. Also, my wonderful girlfriend, Ashley and I are trying to visit every state in the US together! (We've currently been to 37 states + DC!)
+              Fun Facts: I have a story for everything. Also, my wonderful fiancée, Ashley and I are trying to visit every state in the US together! (We've currently been to 37 states + DC!)
             </li>
             <li>
               Favorite Color: <span style={{color: "blue"}}>Blue</span>
