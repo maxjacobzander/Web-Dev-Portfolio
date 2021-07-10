@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import PDF from '../assets/documents/Max_Zander_SE_Resume_May_2021.pdf';
+import PDF from '../assets/documents/Max_Zander_SE_Resume_June_2021.pdf';
 
 import pic1 from '../assets/images/project_pics/Liquor_Cabinet.jpg';
 import pic2 from '../assets/images/project_pics/Ear_Trainer.jpg';
