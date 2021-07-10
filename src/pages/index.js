@@ -42,10 +42,10 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Hi! <br /> I’m Max and I’m a Software Developer from New York.
+            Hi! <br /> I’m Max and I’m a Software Engineer and Web Developer from New York.
           </h2>
           <p>
-            After 6+ years working internationally as a professional opera singer, music teacher, and award-winning composer and arranger of music, I found myself drawn to software development
+            After 7+ years working internationally as a professional opera singer, music teacher, and award-winning composer and arranger of music, I found myself drawn to software development
             <br /><br />
             <a href="/About" className="button secondary">
             About Me
@@ -90,7 +90,7 @@ const IndexPage = () => (
           </h2>
           <p>
             Small business website, built with React
-            <br></br><a href="https://adriansdream.netlify.app/" target="_blank" rel="noreferrer noopener"> (Visit Site) </a>
+            <br></br><a href="https://adriansdream.com/" target="_blank" rel="noreferrer noopener"> (Visit Site) </a>
           </p>
         </div>
       </section>

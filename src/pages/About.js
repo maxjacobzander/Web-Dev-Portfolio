@@ -26,7 +26,7 @@ const IndexPage = () => (
           </p>
 
           <p>
-          After 6+ years working internationally as a professional opera singer, music teacher, and award-winning composer and arranger of music, I enrolled in Flatiron School’s full-time Full-Stack Software Engineering program, specializing in Ruby on Rails and React. Now, as a proud graduate of that program, I continue to learn every day to expand my toolbelt and build the best programs possible!
+          After 7+ years working internationally as a professional opera singer, music teacher, and award-winning composer and arranger of music, I enrolled in Flatiron School’s full-time Full-Stack Software Engineering program, specializing in Ruby on Rails and React. Now, as a proud graduate of that program, I continue to learn every day to expand my toolbelt and build the best programs possible!
           </p>
 
           <hr />
@@ -40,7 +40,7 @@ const IndexPage = () => (
               Favorite Color: <span style={{color: "blue"}}>Blue</span>
             </li>
             <li>
-              Favorite TV Shows: The Office, Parks & Rec, Schitt's Creek, The Great British Bake Off, The Big Flower Fight, Law & Order SVU, Criminal Minds
+              Favorite TV Shows: The Office, Parks & Rec, Schitt's Creek, Ted Lasso, The Great British Bake Off, The Big Flower Fight, Law & Order SVU, Criminal Minds
             </li>
             <li>
               Coding Languages: <strong>JavaScript, Ruby, SQL, HTML, CSS</strong>
