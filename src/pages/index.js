@@ -14,7 +14,6 @@ import pic5 from '../assets/images/project_pics/Cocktail_Buddy.jpg';
 import pic6 from '../assets/images/project_pics/Adrians_Dream.jpg';
 import config from '../../config';
 
-
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -42,13 +41,17 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Hi! <br /> I’m Max and I’m a Software Engineer and Web Developer from New York.
+            Hi! <br /> I’m Max and I’m a Software Engineer and Web Developer
+            from New York.
           </h2>
           <p>
-            After 7+ years working internationally as a professional opera singer, music teacher, and award-winning composer and arranger of music, I found myself drawn to software development
-            <br /><br />
+            After 7+ years working internationally as a professional opera
+            singer, music teacher, and award-winning composer and arranger of
+            music, I found myself drawn to software development
+            <br />
+            <br />
             <a href="/About" className="button secondary">
-            About Me
+              About Me
             </a>
             <br />
           </p>
@@ -74,100 +77,110 @@ const IndexPage = () => (
     </section>
 
     <section id="two" className="wrapper alt style2 special">
-    <br /><br />
-    <header className="major">
-      <h2>Some Previous Projects...</h2>
-    </header>
-    <section className="spotlight">
+      <br />
+      <br />
+      <header className="major">
+        <h2>Some Previous Projects...</h2>
+      </header>
+      <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/v16cW726es8" target="_blank" rel="noreferrer noopener">
-          <img src={pic6} alt="" />
+          <a
+            href="https://youtu.be/v16cW726es8"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={pic6} alt="" />
           </a>
         </div>
         <div className="content">
-          <h2>
-            Adrian's Dream
-          </h2>
+          <h2>Adrian's Dream</h2>
           <p>
             Small business website, built with React
-            <br></br><a href="https://adriansdream.com/" target="_blank" rel="noreferrer noopener"> (Visit Site) </a>
+            <br></br>
+            <a
+              href="https://adriansdream.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              {' '}
+              (Visit Site){' '}
+            </a>
           </p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/BgoJaH-Y_hg" target="_blank" rel="noreferrer noopener">
-          <img src={pic2} alt="" />
+          <a
+            href="https://youtu.be/BgoJaH-Y_hg"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={pic2} alt="" />
           </a>
         </div>
         <div className="content">
-          <h2>
-            Ear Trainer
-          </h2>
-          <p>
-            Vanilla JavaScript Front-End, Rails API Back-End
-            <br></br><a href="https://ear-trainer.netlify.app/" target="_blank" rel="noreferrer noopener"> (Try Me!) </a>
-          </p>
+          <h2>Ear Trainer</h2>
+          <p>Vanilla JavaScript Front-End, Rails API Back-End</p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/oolEZgBoPMM" target="_blank" rel="noreferrer noopener">
-          <img src={pic1} alt="" />
+          <a
+            href="https://youtu.be/oolEZgBoPMM"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={pic1} alt="" />
           </a>
         </div>
         <div className="content">
-          <h2>
-            Liquor Cabinet
-          </h2>
-          <p>
-            React/Redux Front-End, Rails API Back-End
-          </p>
+          <h2>Liquor Cabinet</h2>
+          <p>React/Redux Front-End, Rails API Back-End</p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/ga3SLheArSU" target="_blank" rel="noreferrer noopener">
-          <img src={pic3} alt="" />
+          <a
+            href="https://youtu.be/ga3SLheArSU"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={pic3} alt="" />
           </a>
         </div>
         <div className="content">
-          <h2>
-            Bucket
-          </h2>
-          <p>
-            A 100% Rails Application
-          </p>
+          <h2>Bucket</h2>
+          <p>A 100% Rails Application</p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/C9yT2VxRh98" target="_blank" rel="noreferrer noopener">
-          <img src={pic4} alt="" />
+          <a
+            href="https://youtu.be/C9yT2VxRh98"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={pic4} alt="" />
           </a>
         </div>
         <div className="content">
-          <h2>
-            Bravo Personal Score Library Catalogue
-          </h2>
-          <p>
-            A Sinatra Application
-          </p>
+          <h2>Bravo Personal Score Library Catalogue</h2>
+          <p>A Sinatra Application</p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <a href="https://youtu.be/Mid918ODF0U" target="_blank" rel="noreferrer noopener">
-          <img src={pic5} alt="" />
+          <a
+            href="https://youtu.be/Mid918ODF0U"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={pic5} alt="" />
           </a>
         </div>
         <div className="content">
-          <h2>
-            Cocktail Buddy
-          </h2>
-          <p>
-            A simple Command-Line Interface
-          </p>
+          <h2>Cocktail Buddy</h2>
+          <p>A simple Command-Line Interface</p>
         </div>
       </section>
     </section>
@@ -177,12 +190,16 @@ const IndexPage = () => (
         <header className="major">
           <h2>My Resume</h2>
           <p>
-            Feel free to check out my resume or <a href={PDF} target="_blank" rel="noreferrer noopener">click here</a> to download it!
+            Feel free to check out my resume or{' '}
+            <a href={PDF} target="_blank" rel="noreferrer noopener">
+              click here
+            </a>{' '}
+            to download it!
           </p>
         </header>
         <ul className="features actions special">
           <embed
-            src={PDF + "#toolbar=0"}
+            src={PDF + '#toolbar=0'}
             type="application/pdf"
             // style={{width: "100%", height: "100%", display: "block"}}
             height={1033}
@@ -194,8 +211,8 @@ const IndexPage = () => (
             // application="yes"
             // frameborder="0"
             // scrolling="no"
-          // height={645}
-          // width={500}
+            // height={645}
+            // width={500}
           />
           {/* <li className="icon fa-paper-plane">
             <h3>Arcu accumsan</h3>
@@ -254,7 +271,7 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-          <a href="https://maxjacobzander.com" className="button fit primary">
+            <a href="https://maxjacobzander.com" className="button fit primary">
               Click Here
             </a>
           </li>
