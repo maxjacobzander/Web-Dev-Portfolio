@@ -50,6 +50,7 @@ const IndexPage = () => (
             music, I found myself drawn to software development
             <br />
             <br />
+            <ul />
             <a href="/About" className="button secondary">
               About Me
             </a>
